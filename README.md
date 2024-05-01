@@ -26,8 +26,7 @@ It produces the libraries inside a lib folder at the root of the repo:
 1. Clone the repo first
 2. Execute `ndk-build` from within the jni folder. Make sure to use the right ndk - likely to be in a folder like `~/Android/Sdk/ndk/21.3.xxxxx/ndk-build`. 
 Add `--trace` to it if you see compile errors.
-3. After success build, you will get `live555.so` in the `libs` folder
-
+3. After success build, you will get the `live555.so` in the `libs` folder, under their respective platform (see pic above)
 
 ## Pre-built libs
 I've also included pre-built libs for the common platforms for those who want to be going straight there.
